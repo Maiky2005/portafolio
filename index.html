@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Penzil</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <img src="img/conejito.jpg" alt="">
+                <a href="#">Penzil</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portafolio" onclick="seleccionar()">PORTAFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" id="nava" onclick="mostrarOcultarMenu">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/zorrito.jpg" alt="">
+            </div>
+            <h1>Maiky Castro</h1>
+            <h2>Productor Multimedia - Animador digital - Editor de videos</h2>
+            <div class="redes">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="sobremi" id="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre mi</h2>
+            <p><span>Hola, soy Maiky Castro</span> soy un productor multimedia que se destaca en lo audivisual,
+            ya que, este lo considero la mejor forma de traer lo imaginario a la realidad. </p>
+
+            <div class="fila">
+
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            10/09/2005
+                        </li>
+                        <li>
+                            <strong>Telefono</strong>
+                            +57 32059592212
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            maikylocura@gmail.com
+                        </li>
+                        <li>
+                            <strong>Website</strong>
+                            www.enpienzaconpenzil.com
+                        </li>
+                        <li>
+                            <strong>Dirección</strong>
+                            Kr 7D 183B 20
+                        </li>
+                        <li>
+                            <strong>Cargo</strong>
+                            <span>Productor Multimedia - Animador digital - Editor de videos</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-sharp fa-solid fa-headphones fa-bounce"></i>
+                            <span>Musica</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-table-tennis-paddle-ball"></i>
+                            <span>Deporte</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button>
+                descargar cv <i class="fa-solid fa-down-long"></i>
+                <span class="overlay"></span>
+            </button>
+        </div>
+    </section>
+
+
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>Javascrip</span>
+                        <div class="barra-skills">
+                            <div class="progreso ">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span> HTML & CSS</span>
+                        <div class="barra-skills">
+                            <div class="progreso ">
+                                <span>98%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Da vinci</span>
+                        <div class="barra-skills">
+                            <div class="progreso ">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Animate</span>
+                        <div class="barra-skills">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Ilustrator</span>
+                        <div class="barra-skills">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skills">
+                            <div class="progreso">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span> Puntualidad </span>
+                        <div class="barra-skills">
+                            <div class="progreso">
+                                <span>100%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en equipo</span>
+                        <div class="barra-skills">
+                            <div class="progreso">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skills">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skills">
+                            <div class="progreso">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <section class="curriculum" id="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Arte y Multimedia</h4>
+                        <span class="casa">Cenigraf</span>
+                        <span class="fecha">2022 - 2025</span>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum autem accusamus quas non nisi alias necessitatibus quidem itaque inventore! Vel dolores natus magnam distinctio nesciunt ducimus beatae cumque odit vero.
+                        </p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Arte y Multimedia</h4>
+                        <span class="casa">Cenigraf</span>
+                        <span class="fecha">2022 - 2025</span>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum autem accusamus quas non nisi alias necessitatibus quidem itaque inventore! Vel dolores natus magnam distinctio nesciunt ducimus beatae cumque odit vero.
+                        </p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Arte y Multimedia</h4>
+                        <span class="casa">Cenigraf</span>
+                        <span class="fecha">2022 - 2025</span>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum autem accusamus quas non nisi alias necessitatibus quidem itaque inventore! Vel dolores natus magnam distinctio nesciunt ducimus beatae cumque odit vero.
+                        </p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Experienci de Trabajo</h3>
+                    <div class="item der">
+                        <h4>Asistente de cociona</h4>
+                        <span class="casa">Yoi</span>
+                        <span class="fecha">2022 - 2023</span>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum autem accusamus quas non nisi alias necessitatibus quidem itaque inventore! Vel dolores natus magnam distinctio nesciunt ducimus beatae cumque odit vero.
+                        </p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Asistente de cociona</h4>
+                        <span class="casa">Yoi</span>
+                        <span class="fecha">2022 - 2023</span>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum autem accusamus quas non nisi alias necessitatibus quidem itaque inventore! Vel dolores natus magnam distinctio nesciunt ducimus beatae cumque odit vero.
+                        </p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+
+                    <div class="item der">
+                        <h4>Asistente de cociona</h4>
+                        <span class="casa">Yoi</span>
+                        <span class="fecha">2022 - 2023</span>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum autem accusamus quas non nisi alias necessitatibus quidem itaque inventore! Vel dolores natus magnam distinctio nesciunt ducimus beatae cumque odit vero.
+                        </p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>               
+                </div> 
+            </div>
+        </div>
+    </section>
+
+
+
+    <section id="portafolio" class="portafolio">
+        <div class="ventana" id="vente">h
+            <div id="cerrar"><a href="javascript:cerrar()"><i class="fa-solid fa-xmark"></i></a></div>
+        </div>
+        <div class="contenido-seccion">
+            <h2>Portafolio</h2>
+            <div class="galeria">
+                <div class="proyectos">
+                    <img src="img/gaito.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseños Creativos</h3>
+                        <p>Fotografía</p>
+                        <a href="javascript:abrir()" >Ver</a>
+                    </div>
+                </div>
+                <div class="proyectos">
+                    <img src="img/conejito.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseños Creativos</h3>
+                        <p>Fotografía</p>
+                        <a href="javascript:abrir()">Ver</a>
+                    </div>
+                </div>
+                <div class="proyectos">
+                    <img src="img/zorrito.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseños Creativos</h3>
+                        <p>Fotografía</p>
+                        <a href="javascript:abrir()">Ver</a>
+                    </div>
+                </div>
+                <div class="proyectos">
+                    <img src="img/backgraund.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseños Creativos</h3>
+                        <p>Fotografía</p>
+                        <a href="javascript:abrir()">Ver</a>
+                    </div>
+                </div>
+                <div class="proyectos">
+                    <img src="img/gaito.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseños Creativos</h3>
+                        <p>Fotografía</p>
+                        <a href="javascript:abrir()">Ver</a>
+                    </div>
+                </div>
+                <div class="proyectos">
+                    <img src="img/gaito.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseños Creativos</h3>
+                        <p>Fotografía</p>
+                        <a href="javascript:abrir()">Ver</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="contacto" id="contacto">
+        <div class="contenido-seccion">
+            <h2>Contacto</h2>
+            <div class="fila">
+
+                <div class="col"> 
+                    <input type="text" placeholder="Tú Nombre">
+                    <input type="text" placeholder="Número Telefónico">
+                    <input type="text" placeholder="Correo Electronico">
+                    <input type="text" placeholder="Tema">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button>Enviar<i class="fa-solid fa-paper-plane"></i>
+                    <span class="overlay"></span>
+                    </button>
+                </div>
+
+                <div class="col">
+                    <img src="img/ubication.png" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Cra 7d #183 b 20
+                            </li>
+                            <li>
+                                <i class="fa-regular fa-mobile"></i>
+                                Llamanos: 4444-444-44
+                            </li>
+                            <li>
+                                <i class="fa-regular fa-envelope"></i>
+                                Email: maikylocura@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+    </footer>
+
+
+
+    <script src="java.js"></script>
+ 
+ 
+</body>
+</html>
